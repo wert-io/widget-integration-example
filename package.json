@@ -4,7 +4,8 @@
   "description": "Example of Wert widget integration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve --open"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/wert-io/widget-integration-example/issues"
   },
-  "homepage": "https://github.com/wert-io/widget-integration-example#readme"
+  "homepage": "https://github.com/wert-io/widget-integration-example#readme",
+  "dependencies": {
+    "@wert-io/widget-initializer": "^0.1.2",
+    "@wert-io/widget-sc-signer": "0.0.1",
+    "buffer": "^6.0.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.0.0",
+    "eslint": "^8.4.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
 }
