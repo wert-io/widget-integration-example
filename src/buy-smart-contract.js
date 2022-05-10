@@ -26,6 +26,9 @@ const otherWidgetOptions = {
   origin: 'https://sandbox.wert.io', // this option needed only for this example to work
   width: 400,
   height: 600,
+  listeners: {
+    loaded: () => console.log('loaded'),
+  },
 };
 
 const wertWidget = new WertWidget({

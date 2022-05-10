@@ -11,6 +11,9 @@ const options = {
   commodity: 'ETH',
   commodities: 'BTC,ETH',
   // currency_amount: 100,
+  listeners: {
+    loaded: () => console.log('loaded'),
+  },
 };
 const wertWidget = new WertWidget(options);
 
