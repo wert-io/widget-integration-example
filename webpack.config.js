@@ -4,6 +4,7 @@ module.exports = {
   entry: {
     'buy-crypto': './src/buy-crypto.js',
     'buy-smart-contract': './src/buy-smart-contract.js',
+    'buy-nft': './src/buy-nft.js',
   },
   plugins: [
     new CopyPlugin({
