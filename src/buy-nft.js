@@ -60,7 +60,7 @@ if (window.ethereum) {
         item_info: {
           author: "Wert",
           image_url:
-            "https://wert.io/img/misc/sample_nft.png",
+            "http://localhost:8765/sample_nft.png",
           name: "Wert Sample NFT",
           seller: "Wert",
         }
