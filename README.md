@@ -4,6 +4,7 @@ This repository is made to provide examples of how to integrate Wert module into
 
 * Example of [simple cryptocurrency purchase](https://github.com/wert-io/widget-integration-example/blob/master/src/buy-crypto.js)
 * Example of [smart contract purchase](https://github.com/wert-io/widget-integration-example/blob/master/src/buy-smart-contract.js)
+* Example of [NFT purchase](https://github.com/wert-io/widget-integration-example/blob/master/src/buy-nft.js)
 
 To check it locally:
 
