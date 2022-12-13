@@ -21,12 +21,9 @@ const signedData = signSmartContractData({
 }, privateKey);
 const otherWidgetOptions = {
   partner_id: '01FFHQR89W38Y98278392090',
-  commodity: 'ETH:Ethereum-Goerli',  
-  container_id: 'widget',
+  commodity: 'ETH:Ethereum-Goerli',
   click_id: uuidv4(), // unique id of purhase in your system
   origin: 'https://sandbox.wert.io', // this option needed only for this example to work
-  width: 400,
-  height: 600,
   listeners: {
     loaded: () => console.log('loaded'),
   },
