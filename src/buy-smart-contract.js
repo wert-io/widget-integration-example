@@ -20,7 +20,7 @@ const signedData = signSmartContractData({
   sc_input_data: '0x9dae76ea000000000000000000000000000000000000000000000000000000000000003700000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001',
 }, privateKey);
 const otherWidgetOptions = {
-  partner_id: '01FFHQR89W38Y98278392090',
+  partner_id: '01GCRJZ1P7GP32304PZCS6RSPD',
   commodity: 'ETH:Ethereum-Goerli',  
   container_id: 'widget',
   click_id: uuidv4(), // unique id of purhase in your system
