@@ -1,0 +1,6 @@
+{
+	"userEnvProbe": "loginInteractiveShell",
+	"service": "development",
+	"postAttachCommand": "npm install;npm run start",
+	"postStartCommand": "npm install;npm run start"
+}
