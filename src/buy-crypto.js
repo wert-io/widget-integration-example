@@ -9,7 +9,17 @@ const options = {
   height: 600,
   currency: 'USD',
   commodity: 'ETH',
-  commodities: 'BTC,ETH',
+  network: 'goerli',
+  commodities: [
+    {
+      name: 'BTC',
+      network: 'testnet',
+    },
+    {
+      name: 'ETH',
+      network: 'goerli',
+    }
+  ],
   // currency_amount: 100,
   listeners: {
     loaded: () => console.log('loaded'),
