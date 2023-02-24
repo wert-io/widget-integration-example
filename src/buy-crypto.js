@@ -10,16 +10,16 @@ const options = {
   currency: 'USD',
   commodity: 'ETH',
   network: 'goerli',
-  commodities: [
+  commodities: JSON.stringify([
     {
-      name: 'BTC',
-      network: 'testnet',
+      name: "BTC",
+      network: "testnet",
     },
     {
-      name: 'ETH',
-      network: 'goerli',
-    }
-  ],
+      name: "ETH",
+      network: "goerli",
+    },
+  ]),
   // currency_amount: 100,
   listeners: {
     loaded: () => console.log('loaded'),
