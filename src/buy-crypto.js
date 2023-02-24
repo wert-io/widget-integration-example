@@ -12,11 +12,11 @@ const options = {
   network: 'goerli',
   commodities: JSON.stringify([
     {
-      name: "BTC",
+      commodity: "BTC",
       network: "testnet",
     },
     {
-      name: "ETH",
+      commodity: "ETH",
       network: "goerli",
     },
   ]),
