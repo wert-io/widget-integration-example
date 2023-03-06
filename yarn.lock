@@ -410,10 +410,10 @@
   "resolved" "https://registry.yarnpkg.com/@wert-io/widget-initializer/-/widget-initializer-2.0.3.tgz"
   "version" "2.0.3"
 
-"@wert-io/widget-sc-signer@1.0.1-beta.0":
-  "integrity" "sha512-smH6TyV49eaEQi6RdH0X6rlaIIq2fc1ndbcjyJouzqys3QyN6lIXN9sFyzGfrlyT6IHyF8eBya1ATH8AIcm8oQ=="
-  "resolved" "https://registry.npmjs.org/@wert-io/widget-sc-signer/-/widget-sc-signer-1.0.1-beta.0.tgz"
-  "version" "1.0.1-beta.0"
+"@wert-io/widget-sc-signer@1.0.1-beta.2":
+  "integrity" "sha512-pP0moX8kVdZNP7D0F+KciC5Lp5+WL3uO76zZwktvQLSwdConTcqwUw1sVsypXNn3gH/2/pNSt2w0vL9q6mSeGA=="
+  "resolved" "https://registry.npmjs.org/@wert-io/widget-sc-signer/-/widget-sc-signer-1.0.1-beta.2.tgz"
+  "version" "1.0.1-beta.2"
   dependencies:
     "@types/elliptic" "^6.4.12"
     "elliptic" "^6.5.4"
