@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/wert-io/widget-integration-example#readme",
   "dependencies": {
-    "@wert-io/widget-initializer": "^2.0.3",
-    "@wert-io/widget-sc-signer": "1.0.1-beta.2",
+    "@wert-io/widget-initializer": "3.0.0",
+    "@wert-io/widget-sc-signer": "2.0.0",
     "buffer": "^6.0.3",
     "uuid": "^8.3.2"
   },
