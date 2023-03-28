@@ -5,6 +5,7 @@ const options = {
   partner_id: 'default',
   container_id: 'widget',
   click_id: uuidv4(), // unique id of purhase in your system
+  origin: 'https://sandbox.wert.io', // this option needed only in sandbox
   width: 400,
   height: 600,
   currency: 'USD',
