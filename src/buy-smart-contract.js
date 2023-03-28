@@ -9,7 +9,7 @@ window.Buffer = Buffer; // needed to use `signSmartContractData` in browser
 /* We advise you not to use the private key on the frontend
     It is used here for example only
 */
-const privateKey = '0x687079c151720e44c97b40c00ac257699fa4fc2c96ef617d964113c059dafe3d';
+const privateKey = '0x57466afb5491ee372b3b30d82ef7e7a0583c9e36aef0f02435bd164fe172b1d3';
 const signedData = signSmartContractData({
   address: '0x96D5990185022212d367A0e09263B12Dbb4EE06A',
   commodity: 'ETH',
