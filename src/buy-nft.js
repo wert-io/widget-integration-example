@@ -41,10 +41,9 @@ if (window.ethereum) {
     const signedData = signSmartContractData({
       address: userAddress, // user's address
       commodity: 'MATIC',
-      commodity_amount: '1.5', // the crypto amount that should be send to the contract method
-      pk_id: 'key1', // always 'key1'
+      commodity_amount: 1.5, // the crypto amount that should be sent to the contract method
+      network: 'mumbai',
       sc_address: '0x6af35a72b2490a44c0e88ae635b9b38516544db1', // your SC address
-      sc_id: uuidv4(), // must be unique for any request
       sc_input_data,
     }, privateKey);
     const otherWidgetOptions = {

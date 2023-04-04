@@ -1,0 +1,7 @@
+{
+	"userEnvProbe": "loginInteractiveShell",
+	"service": "development",
+	"forwardPorts": [8765],
+	"postAttachCommand": "npm install;npm run start",
+	"postStartCommand": "npm install;npm run start"
+}
