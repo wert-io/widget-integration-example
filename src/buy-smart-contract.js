@@ -20,11 +20,8 @@ const signedData = signSmartContractData({
 }, privateKey);
 const otherWidgetOptions = {
   partner_id: '01GCRJZ1P7GP32304PZCS6RSPD',
-  container_id: 'widget',
   click_id: uuidv4(), // unique id of purhase in your system
   origin: 'https://sandbox.wert.io', // this option needed only for this example to work
-  width: 400,
-  height: 600,
   listeners: {
     loaded: () => console.log('loaded'),
   },
