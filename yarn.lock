@@ -405,10 +405,10 @@
   "resolved" "https://registry.yarnpkg.com/@webpack-cli/serve/-/serve-1.7.0.tgz"
   "version" "1.7.0"
 
-"@wert-io/widget-initializer@3.0.0":
-  "integrity" "sha512-pCJtdZr3CJ/EjCU1Iko4CaDb3z+UdSOWuHw7Gvvka94QJ+o19ZUslEkv3tqw35s5RY47epLHohN52SFO8ePHQg=="
-  "resolved" "https://registry.npmjs.org/@wert-io/widget-initializer/-/widget-initializer-3.0.0.tgz"
-  "version" "3.0.0"
+"@wert-io/widget-initializer@4.0.0-beta.4":
+  "integrity" "sha512-ZqrKUAVing3bGH36ECSoDT7vnjK9gYNyYn3XK1WNQhP0Iv/0QujP6JVg23HOsZjlamJ7omYTJzDlYmr9MlLh6A=="
+  "resolved" "https://registry.npmjs.org/@wert-io/widget-initializer/-/widget-initializer-4.0.0-beta.4.tgz"
+  "version" "4.0.0-beta.4"
 
 "@wert-io/widget-sc-signer@2.0.0":
   "integrity" "sha512-8BMZOnvGKj+LwIlmNqJyKFLn0VCMudURV81dUb0CyGGy8XJwBqAtNPj81iPIw07xx+a61hpgd8ngWQi6i3CwUQ=="
