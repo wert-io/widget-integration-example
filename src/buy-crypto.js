@@ -25,4 +25,4 @@ const options = {
 };
 const wertWidget = new WertWidget(options);
 
-wertWidget.mount();
+wertWidget.open();
