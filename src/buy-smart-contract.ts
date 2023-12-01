@@ -4,13 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 import { Buffer } from 'buffer/';
 
-type WindowType = Window &
-  typeof globalThis & {
-    Buffer: any;
-    ethereum: any;
-  };
-
-(window as WindowType).Buffer = Buffer; // needed to use `signSmartContractData` in browser
+window.Buffer = Buffer; // needed to use `signSmartContractData` in browser
 
 /* We advise you not to use the private key on the frontend
     It is used here for example only
