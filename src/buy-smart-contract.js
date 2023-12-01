@@ -32,4 +32,4 @@ const wertWidget = new WertWidget({
   ...otherWidgetOptions,
 });
 
-wertWidget.mount();
+wertWidget.open();

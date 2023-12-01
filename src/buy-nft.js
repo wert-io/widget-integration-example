@@ -69,6 +69,6 @@ if (window.ethereum) {
       ...nftOptions,
     });
 
-    wertWidget.mount();
+    wertWidget.open();
   })()
 }

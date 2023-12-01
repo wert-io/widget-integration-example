@@ -5,17 +5,17 @@ const options = {
   partner_id: 'default',
   click_id: uuidv4(), // unique id of purhase in your system
   origin: 'https://sandbox.wert.io', // this option needed only in sandbox
-  currency: 'USD',
   commodity: 'ETH',
+  currency: 'USD' as const,
   network: 'goerli',
   commodities: JSON.stringify([
     {
-      commodity: "BTC",
-      network: "testnet",
+      commodity: 'BTC',
+      network: 'testnet',
     },
     {
-      commodity: "ETH",
-      network: "goerli",
+      commodity: 'ETH',
+      network: 'goerli',
     },
   ]),
   // currency_amount: 100,
@@ -25,4 +25,4 @@ const options = {
 };
 const wertWidget = new WertWidget(options);
 
-wertWidget.mount();
+wertWidget.open();
