@@ -5,28 +5,19 @@ import { v4 as uuidv4 } from 'uuid';
 
 import { Buffer } from 'buffer/';
 
-type WindowType = Window &
-  typeof globalThis & {
-    Buffer: any;
-    ethereum: any;
-  };
-
-(window as WindowType).Buffer = Buffer; // needed to use `signSmartContractData` in browser
+window.Buffer = Buffer; // needed to use `signSmartContractData` in browser
 
 /* We advise you not to use the private key on the frontend
     It is used only as an example
 */
 
-if ((window as any).ethereum) {
+if (window.ethereum) {
   (async () => {
     // Get user address
-
-    const userAccounts = await (window as WindowType).ethereum.request({
+    const userAccounts = await window.ethereum.request({
       method: 'eth_requestAccounts',
     });
-
-    //@ts-ignore
-    const web3: any = new Web3((window as WindowType).ethereum);
+    const web3: any = new Web3(window.ethereum);
     const userAddress = userAccounts[0];
     // Encode the call to mintNFT(address = userAddress, numberOfTokens = 1)
     const sc_input_data = web3.eth.abi.encodeFunctionCall(
