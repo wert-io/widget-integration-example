@@ -18,7 +18,7 @@ if (window.ethereum) {
     const userAccounts = await window.ethereum.request({
       method: 'eth_requestAccounts',
     });
-    const web3: any = new Web3(window.ethereum);
+    const web3 = new Web3(window.ethereum);
     const userAddress = userAccounts[0];
     // Encode the call to mintNFT(address = userAddress, numberOfTokens = 1)
     const sc_input_data = web3.eth.abi.encodeFunctionCall(
