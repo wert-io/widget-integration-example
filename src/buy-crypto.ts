@@ -1,11 +1,12 @@
 import WertWidget from '@wert-io/widget-initializer';
+import type { Options } from '@wert-io/widget-initializer/types';
 import { v4 as uuidv4 } from 'uuid';
 
-const options = {
+const options: Options = {
   partner_id: 'default',
-  click_id: uuidv4(), // unique id of purhase in your system
+  click_id: uuidv4(), // unique id of purсhase in your system
   origin: 'https://sandbox.wert.io', // this option needed only in sandbox
-  currency: 'USD' as const,
+  currency: 'USD',
   commodity: 'ETH',
   network: 'goerli',
   commodities: JSON.stringify([
@@ -18,7 +19,6 @@ const options = {
       network: 'goerli',
     },
   ]),
-  // currency_amount: 100,
   listeners: {
     loaded: () => console.log('loaded'),
   },
