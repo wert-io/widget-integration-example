@@ -21,7 +21,7 @@
   "homepage": "https://github.com/wert-io/widget-integration-example#readme",
   "dependencies": {
     "@types/uuid": "^9.0.7",
-    "@wert-io/widget-initializer": "5.0.0-beta.1",
+    "@wert-io/widget-initializer": "5.0.0",
     "@wert-io/widget-sc-signer": "2.0.0",
     "buffer": "^6.0.3",
     "uuid": "^8.3.2",
