@@ -2,9 +2,9 @@
 
 This repository is made to provide examples of how to integrate Wert module into your project. They are stored in `/src/` folder.
 
-* Example of [simple cryptocurrency purchase](https://github.com/wert-io/widget-integration-example/blob/master/src/buy-crypto.js)
-* Example of [smart contract purchase](https://github.com/wert-io/widget-integration-example/blob/master/src/buy-smart-contract.js)
-* Example of [NFT purchase](https://github.com/wert-io/widget-integration-example/blob/master/src/buy-nft.js)
+* Example of [simple cryptocurrency purchase](https://github.com/wert-io/widget-integration-example/blob/master/src/buy-crypto.ts)
+* Example of [smart contract purchase](https://github.com/wert-io/widget-integration-example/blob/master/src/buy-smart-contract.ts)
+* Example of [NFT purchase](https://github.com/wert-io/widget-integration-example/blob/master/src/buy-nft.ts)
 
 To check it locally:
 
