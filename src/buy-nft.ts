@@ -1,5 +1,6 @@
 /* eslint-disable no-undef */
 import WertWidget from '@wert-io/widget-initializer';
+import type { Options } from '@wert-io/widget-initializer/types';
 import { signSmartContractData } from '@wert-io/widget-sc-signer';
 import { v4 as uuidv4 } from 'uuid';
 import Web3 from 'web3';
@@ -57,26 +58,24 @@ if (window.ethereum) {
       },
       privateKey
     );
-    const otherWidgetOptions = {
+    const nftOptions: Options['extra'] = {
+      item_info: {
+        author: 'Wert',
+        image_url: 'http://localhost:8765/sample_nft.png',
+        name: 'Wert Sample NFT',
+        seller: 'Wert',
+      },
+    };
+    const otherWidgetOptions: Options = {
       partner_id: '01GCRJZ1P7GP32304PZCS6RSPD', // your partner id
       click_id: uuidv4(), // unique id of purhase in your system
       origin: 'https://sandbox.wert.io', // this option needed only in sandbox
-    };
-    const nftOptions = {
-      extra: {
-        item_info: {
-          author: 'Wert',
-          image_url: 'http://localhost:8765/sample_nft.png',
-          name: 'Wert Sample NFT',
-          seller: 'Wert',
-        },
-      },
+      extra: nftOptions,
     };
 
     const wertWidget = new WertWidget({
       ...signedData,
       ...otherWidgetOptions,
-      ...nftOptions,
     });
 
     wertWidget.open();

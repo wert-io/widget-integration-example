@@ -1,4 +1,5 @@
 import WertWidget from '@wert-io/widget-initializer';
+import type { Options } from '@wert-io/widget-initializer/types';
 import { signSmartContractData } from '@wert-io/widget-sc-signer';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -23,7 +24,7 @@ const signedData = signSmartContractData(
   },
   privateKey
 );
-const otherWidgetOptions = {
+const otherWidgetOptions: Options = {
   partner_id: '01GCRJZ1P7GP32304PZCS6RSPD',
   click_id: uuidv4(), // unique id of purhase in your system
   origin: 'https://sandbox.wert.io', // this option needed only for this example to work
