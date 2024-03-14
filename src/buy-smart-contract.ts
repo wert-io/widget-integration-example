@@ -16,7 +16,7 @@ const signedData = signSmartContractData(
   {
     address: '0x96D5990185022212d367A0e09263B12Dbb4EE06A',
     commodity: 'ETH',
-    network: 'goerli',
+    network: 'sepolia',
     commodity_amount: 0.005,
     sc_address: '0x3b2305502bd6f8b1eb2ed474ac15c61c6702b18b',
     sc_input_data:
