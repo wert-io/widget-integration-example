@@ -8,7 +8,7 @@ const options: Options = {
   origin: 'https://sandbox.wert.io', // this option needed only in sandbox
   currency: 'USD',
   commodity: 'ETH',
-  network: 'goerli',
+  network: 'sepolia',
   commodities: JSON.stringify([
     {
       commodity: 'BTC',
@@ -16,7 +16,7 @@ const options: Options = {
     },
     {
       commodity: 'ETH',
-      network: 'goerli',
+      network: 'sepolia',
     },
   ]),
   listeners: {
