@@ -6,7 +6,6 @@ const options: Options = {
   partner_id: 'default',
   click_id: uuidv4(), // unique id of purсhase in your system
   origin: 'https://sandbox.wert.io', // this option needed only in sandbox
-  currency: 'USD',
   commodity: 'ETH',
   network: 'sepolia',
   commodities: JSON.stringify([
