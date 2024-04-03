@@ -64,6 +64,7 @@ if (window.ethereum) {
         image_url: 'http://localhost:8765/sample_nft.png',
         name: 'Wert Sample NFT',
         seller: 'Wert',
+        header: 'Wert Sample header'
       },
     };
     const otherWidgetOptions: Options = {
