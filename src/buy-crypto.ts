@@ -10,8 +10,8 @@ const options: Options = {
   network: 'sepolia',
   commodities: JSON.stringify([
     {
-      commodity: 'BTC',
-      network: 'testnet',
+      commodity: 'MATIC',
+      network: 'amoy',
     },
     {
       commodity: 'ETH',
