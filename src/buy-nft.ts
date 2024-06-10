@@ -53,7 +53,7 @@ if (window.ethereum) {
         commodity: 'MATIC',
         commodity_amount: 3, // the crypto amount that should be sent to the contract method
         network: 'amoy',
-        sc_address: '0x6af35a72b2490a44c0e88ae635b9b38516544db1', // your SC address
+        sc_address: '0xAAC496808A678B834073FB3435857FdcF0dc186F', // your SC address
         sc_input_data,
       },
       privateKey
