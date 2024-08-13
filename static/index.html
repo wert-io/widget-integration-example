@@ -1,50 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Wert integration examples</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <meta name="robots" content="noindex">
-  <title>Wert integration examples</title>
-</head>
+  <body>
+    <div>
+      <p class="text-center font-bold">
+        Using
+        <a
+          href="https://www.npmjs.com/package/@wert-io/widget-initializer"
+          target="_blank"
+          >@wert-io/widget-initializer</a
+        >:
+      </p>
+      <div class="links">
+        <a class="link" href="/buy-crypto.html">
+          <img src="./cryptocurrency.png" />
+          <span>Simple crypto purchase</span>
+        </a>
+        <a class="link" href="/buy-smart-contract.html">
+          <img src="./smart-contract.png" />
+          <span>Smart contract purchase</span>
+        </a>
+        <a class="link" href="/buy-nft.html">
+          <img src="./nft.png" />
+          <span>NFT purchase</span>
+        </a>
+      </div>
+    </div>
+    <div>
+      <p class="text-center font-bold">
+        If you have a React app - try using
+        <a
+          href="https://www.npmjs.com/package/@wert-io/module-react-component"
+          target="_blank"
+          >@wert-io/module-react-component</a
+        >:
+      </p>
+      <div class="links">
+        <a class="link" href="/react-module.html">
+          <img src="./react.png" />
+          <span>React Module</span>
+        </a>
+      </div>
+    </div>
+  </body>
+  <style>
+    html {
+      height: 100%;
+    }
+    body {
+      margin: 0;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+    }
 
-<body>
-  <div class="links">
-    <a class="link" href="/buy-crypto.html">
-      <img src="./cryptocurrency.png" />
-      <span>Simple crypto purchase</span>
-    </a>
-    <a class="link" href="/buy-smart-contract.html">
-      <img src="./smart-contract.png" />
-      <span>Smart contract purchase</span>
-    </a>
-    <a class="link" href="/buy-nft.html">
-      <img src="./nft.png" />
-      <span>NFT purchase</span>
-    </a>
-  </div>
-</body>
-<style>
-  body {
-    margin: 0;
-  }
+    .text-center {
+      text-align: center;
+    }
+    .font-bold {
+      font-weight: bold;
+    }
 
-  .links {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
+    .links {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
 
-  .link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #2D35E8;
-    text-decoration: none;
-    margin: 16px;
-  }
-</style>
-
+    .link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #2d35e8;
+      text-decoration: none;
+      margin: 16px;
+    }
+    .link span {
+      margin-top: 8px;
+    }
+    .link img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+    }
+  </style>
 </html>
