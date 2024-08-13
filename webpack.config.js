@@ -6,6 +6,7 @@ module.exports = {
     'buy-crypto': './src/buy-crypto.ts',
     'buy-smart-contract': './src/buy-smart-contract.ts',
     'buy-nft': './src/buy-nft.ts',
+    'react-module': './src/react-module.tsx',
   },
   output: {
     filename: '[name].js',
@@ -14,8 +15,8 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.ts?$/,
-        use: 'ts-loader',
+        test: /\.(ts|tsx)$/,
+        use: 'babel-loader',
         exclude: /node_modules/,
       },
     ],
