@@ -50,9 +50,9 @@ if (window.ethereum) {
     const signedData = signSmartContractData(
       {
         address: userAddress, // user's address
-        commodity: 'MATIC',
+        commodity: 'POL',
         commodity_amount: 3, // the crypto amount that should be sent to the contract method
-        network: 'amoi',
+        network: 'amoy',
         sc_address: '0xAAC496808A678B834073FB3435857FdcF0dc186F', // your SC address
         sc_input_data,
       },
