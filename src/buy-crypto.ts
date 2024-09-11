@@ -10,7 +10,7 @@ const options: Options = {
   network: 'sepolia',
   commodities: JSON.stringify([
     {
-      commodity: 'MATIC',
+      commodity: 'POL',
       network: 'amoy',
     },
     {
