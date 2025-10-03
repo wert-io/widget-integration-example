@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import { useWertWidget } from '@wert-io/module-react-component';
 import type {
-  GeneralOptions,
+  StaticOptions,
   ReactiveOptions,
 } from '@wert-io/module-react-component';
 
@@ -15,7 +15,7 @@ import type {
 
 const WertButton: React.FC = () => {
   // Here goes the list of all static options. This object is then passed to the open() method
-  const options: GeneralOptions = {
+  const options: StaticOptions = {
     partner_id: 'default',
     origin: 'https://sandbox.wert.io', // this option needed only in sandbox
     commodity: 'ETH',
@@ -33,7 +33,7 @@ const WertButton: React.FC = () => {
   return (
     <button
       onClick={() => {
-        open({ options });
+        open(options);
       }}
     >
       Open Wert widget
