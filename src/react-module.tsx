@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 
 import { useWertWidget } from '@wert-io/module-react-component';
 import type {
-  StaticOptions,
   ReactiveOptions,
+  StaticOptions
 } from '@wert-io/module-react-component';
 
 /*
