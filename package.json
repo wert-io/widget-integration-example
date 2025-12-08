@@ -21,7 +21,7 @@
   "homepage": "https://github.com/wert-io/widget-integration-example#readme",
   "dependencies": {
     "@wert-io/module-react-component": "3.0.1",
-    "@wert-io/widget-initializer": "7.0.0",
+    "@wert-io/widget-initializer": "7.0.1",
     "@wert-io/widget-sc-signer": "2.0.1",
     "buffer": "6.0.3",
     "react": "18.3.1",
